@@ -1,0 +1,62 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ScreenTemperature</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ScreenTemperature</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ScreenTemperature.csproj" File="ScreenTemperature.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
+      <Folder Name="Classes" TargetFolderName="Classes">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Config.cs">Config.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="KeyData.cs">KeyData.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Monitor.cs">Monitor.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RelayCommand.cs">RelayCommand.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Converters" TargetFolderName="Converters">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BoolToVisibilityConverter.cs">BoolToVisibilityConverter.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="NotBoolToVisibilityConverter.cs">NotBoolToVisibilityConverter.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="NullToVisibilityConverter.cs">NullToVisibilityConverter.cs</ProjectItem>
+      </Folder>
+      <Folder Name="HsvColorPickers" TargetFolderName="HsvColorPickers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="CirclePicker.xaml">CirclePicker.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="CirclePicker.xaml.cs">CirclePicker.xaml.cs</ProjectItem>
+        <Folder Name="Handlers" TargetFolderName="Handlers">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ColorChangeHandler.cs">ColorChangeHandler.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="HSVChangeHandler.cs">HSVChangeHandler.cs</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="HSV.cs">HSV.cs</ProjectItem>
+        <Folder Name="Interface" TargetFolderName="Interface">
+          <ProjectItem ReplaceParameters="true" TargetFileName="IColorPicker.cs">IColorPicker.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="IHSVPicker.cs">IHSVPicker.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml">MainWindow.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml.cs">MainWindow.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="arrow_down.png">arrow_down.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="arrow_up.png">arrow_up.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="icon.ico">icon.ico</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

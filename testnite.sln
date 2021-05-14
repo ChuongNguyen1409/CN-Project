@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1401
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testnite", "testnite\testnite.csproj", "{D20F2CD3-C53C-4599-A6C3-D769F54A2A36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3AD2092A-5E0C-4670-9C9D-3905E0CF43DB}"
+	ProjectSection(SolutionItems) = preProject
+		testnite\ScreenTemperature.zip = testnite\ScreenTemperature.zip
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{A01E0113-7335-4D5E-B118-CB2643F3A125}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{1E92E9E8-6143-40BB-AEB4-41E3F76CC194}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D20F2CD3-C53C-4599-A6C3-D769F54A2A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20F2CD3-C53C-4599-A6C3-D769F54A2A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20F2CD3-C53C-4599-A6C3-D769F54A2A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20F2CD3-C53C-4599-A6C3-D769F54A2A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A01E0113-7335-4D5E-B118-CB2643F3A125}.Debug|Any CPU.ActiveCfg = Debug
+		{A01E0113-7335-4D5E-B118-CB2643F3A125}.Release|Any CPU.ActiveCfg = Release
+		{1E92E9E8-6143-40BB-AEB4-41E3F76CC194}.Debug|Any CPU.ActiveCfg = Debug
+		{1E92E9E8-6143-40BB-AEB4-41E3F76CC194}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E323C96D-06FA-4B4F-9CDC-CEC43C03BB1A}
+	EndGlobalSection
+EndGlobal

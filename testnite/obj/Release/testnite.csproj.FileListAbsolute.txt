@@ -1,0 +1,14 @@
+C:\Users\Chuong Nguyen\source\repos\testnite\testnite\obj\Release\testnite.csprojAssemblyReference.cache
+C:\Users\Chuong Nguyen\source\repos\testnite\testnite\obj\Release\testnite.Form1.resources
+C:\Users\Chuong Nguyen\source\repos\testnite\testnite\obj\Release\testnite.Form2.resources
+C:\Users\Chuong Nguyen\source\repos\testnite\testnite\obj\Release\testnite.Form3.resources
+C:\Users\Chuong Nguyen\source\repos\testnite\testnite\obj\Release\testnite.Form4.resources
+C:\Users\Chuong Nguyen\source\repos\testnite\testnite\obj\Release\testnite.FPS.resources
+C:\Users\Chuong Nguyen\source\repos\testnite\testnite\obj\Release\testnite.Monito.resources
+C:\Users\Chuong Nguyen\source\repos\testnite\testnite\obj\Release\testnite.Properties.Resources.resources
+C:\Users\Chuong Nguyen\source\repos\testnite\testnite\obj\Release\testnite.TrangChu.resources
+C:\Users\Chuong Nguyen\source\repos\testnite\testnite\obj\Release\testnite.csproj.GenerateResource.cache
+C:\Users\Chuong Nguyen\source\repos\testnite\testnite\obj\Release\testnite.csproj.CoreCompileInputs.cache
+C:\Users\Chuong Nguyen\source\repos\testnite\testnite\obj\Release\testnite.exe.manifest
+C:\Users\Chuong Nguyen\source\repos\testnite\testnite\obj\Release\testnite.exe
+C:\Users\Chuong Nguyen\source\repos\testnite\testnite\obj\Release\testnite.pdb
